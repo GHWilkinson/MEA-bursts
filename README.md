@@ -15,8 +15,12 @@ The script will generate 2 csv files containing spike metrics and synchronised b
 
 Spike metrics provide measures on the general excitability of cultures such as spike rate.
 
-Network activity is analysed using array–wide spike detection rate (ASDR) with a bin width of 200 ms. Synchronized bursts are detected from binned data by a 3-step process: The start of a synchronized burst is detected by a spike count of at least 40% of the maximum ASDR. If the subsequent bin(s) also contained a spike count above the threshold it is included in the synchronized burst. The end of a synchronized burst is determined by a period of 400 ms or more without a spike count about the threshold.
+Network activity is analysed using array–wide spike detection rate (ASDR) with a bin width of 200 ms. Synchronized bursts are detected from binned data by a 3-step process: The start of a synchronized burst is detected by a spike count of at least 40% of the maximum ASDR. If the subsequent bin(s) also contained a spike count above the threshold it is included in the synchronized burst. The end of a synchronized burst is determined by a period of 400 ms or more without a spike count above the threshold.
 
 The script will also generate tiff files of ASDR and raster plots for each well that contain barcode, recording name, well and treatment/cell line information in the name.
 
 The script was written by G Wilkinson and J Haddon.
+
+This script was used to analyse MEA data in the following paper:
+Wilkinson et al., 2016. CACNA1C genetic variants differentially affect neuronal networks through divergent pathways. BPGOS
+https://doi.org/10.1016/j.bpsgos.2026.100792
