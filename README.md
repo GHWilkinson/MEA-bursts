@@ -1,3 +1,6 @@
+<img width="191" height="20" alt="image" src="https://github.com/user-attachments/assets/abbe830d-b97b-4d42-9502-cb8bb0fdebc2" />
+
+
 # MEA-bursts
 An R script using Spike List csv files to analyse Axion MEA data.
 
